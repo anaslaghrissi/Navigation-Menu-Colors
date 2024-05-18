@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Navigation Bar</title>
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+<div class="wrapper">
+	<div class="navbar">
+		<a href="#" class="navitem active" onclick="select(this)" data-clr="#c6ceda">
+			<div class="indicator"></div>
+			<div class="hoverindicator"></div>
+			<ion-icon name="home"></ion-icon>
+		</a>
+		<a href="#" class="navitem" onclick="select(this)" data-clr="#abf8c2">
+			<div class="indicator"></div>
+			<div class="hoverindicator"></div>
+			<ion-icon name="person"></ion-icon>
+		</a>
+		<div class="navsearch">
+			<input class="searchbox"></input>
+			<div class="searchicon" onclick="selectsearch()">
+				<ion-icon name="search"></ion-icon>
+			</div>
+		</div>
+		<a href="#" class="navitem" onclick="select(this)" data-clr="#f8f7ab">
+			<div class="indicator"></div>
+			<div class="hoverindicator"></div>
+			<ion-icon name="cog"></ion-icon>
+		</a>
+	</div>
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script  src="js/script.js"></script>
+
+</body>
+</html>
